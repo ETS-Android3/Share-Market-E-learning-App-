@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/ic_baseline_play_circle_filled_24"
+        android:title="courses" />
+
+    <item
+        android:id="@+id/ebook"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="Ebooks" />
+
+    <item
+        android:id="@+id/shortsss"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="Shorts" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_perm_identity_24"
+        android:title="profile" />
+
+</menu>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sharemarket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShareMarket">
+        <activity
+            android:name=".trading"
+            android:exported="false" />
+        <activity
+            android:name=".investing"
+            android:exported="false" />
+        <activity
+            android:name=".shorts"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:parentActivityName=".course" />
+        <activity
+            android:name=".BSE"
+            android:exported="false" />
+        <activity
+            android:name=".NSE"
+            android:exported="false" />
+        <activity
+            android:name=".Articles"
+            android:exported="false" />
+        <activity
+            android:name=".pdfviewer"
+            android:exported="false"
+            android:parentActivityName=".Ebook" />
+        <activity
+            android:name=".Ebook"
+            android:exported="false"
+            android:noHistory="true"
+            android:parentActivityName=".course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".navigationbar"
+            android:exported="false" />
+        <activity
+            android:name=".myvideoplayer"
+            android:exported="true" />
+        <activity
+            android:name=".youtubePlaylist"
+            android:exported="true"
+            android:parentActivityName=".course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".course"
+            android:exported="true"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".timepass"
+            android:exported="true" />
+        <activity
+            android:name=".setting"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

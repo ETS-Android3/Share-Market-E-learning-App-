@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".signup">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageViewSignup"
+        android:layout_width="226dp"
+        android:layout_height="188dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/EditTextSignUpName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextSignUpName"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:errorContentDescription="name is required"
+        app:errorEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextSignUpEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSignup">
+
+        <EditText
+            android:id="@+id/editTextSignUpName"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:importantForAutofill="no"
+            android:singleLine="true"
+            android:background="@color/white"
+            android:hint="Name" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextSignUpEmail"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextSignUpMobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSignUpName">
+
+        <EditText
+            android:id="@+id/editTextSignUpEmail"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:importantForAutofill="no"
+            android:background="@color/white"
+            android:singleLine="true"
+            android:hint="Email" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextSignUpMobile"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextSignUpPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSignUpEmail">
+
+        <EditText
+            android:id="@+id/editTextSignUpMobile"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:hint="Phone"
+            android:importantForAutofill="no"
+            android:singleLine="true"
+            android:inputType="text|phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EditTextSignUpPassword"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSignUpMobile"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#32CD32">
+
+        <EditText
+            android:id="@+id/editTextSignUpPassword"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:hint="password"
+
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewTermsAndCondition"-->
+    <!--        android:layout_height="19dp"-->
+    <!--        android:layout_marginStart="190dp"-->
+    <!--        android:layout_marginTop="67dp"-->
+    <!--        android:layout_marginEnd="160dp"-->
+    <!--        android:layout_marginBottom="268dp"-->
+    <!--        android:shadowColor="#000000"-->
+    <!--        android:text="Please accept "-->
+    <!--        android:textColor="#000000"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="1.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordSignup"-->
+    <!--        android:layout_width="140dp"/>-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordSignup"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+
+
+    <TextView
+        android:id="@+id/textViewAlreadyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="47dp"
+        android:text="Already have an account"
+        android:textColor="#32CD32"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSignUPSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSignUpPassword" />
+
+    <Button
+        android:id="@+id/buttonSignUPSubmit"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#32CD32"
+        android:text="submit \u2713"
+        android:textColorHint="#32CD32"
+        app:cornerRadius="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAlreadyAccount" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextSignUpName"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextSignUpName"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="@+id/EditTextSignUpName"
+        app:layout_constraintTop_toTopOf="@+id/EditTextSignUpName"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextSignUpEmail"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextSignUpEmail"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="@+id/EditTextSignUpEmail"
+        app:layout_constraintTop_toTopOf="@+id/EditTextSignUpEmail"
+        app:srcCompat="@drawable/ic_baseline_email_24" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/EditTextSignUpMobile"
+        app:layout_constraintEnd_toEndOf="@+id/EditTextSignUpMobile"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="@+id/EditTextSignUpMobile"
+        app:layout_constraintTop_toTopOf="@+id/EditTextSignUpMobile"
+        app:srcCompat="@drawable/ic_baseline_phone_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
