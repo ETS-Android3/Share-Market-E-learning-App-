@@ -17,7 +17,7 @@ analysis which will help the users decide when it would be the right time to ent
 position.
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![SUSHIL adharcard](https://user-images.githubusercontent.com/73883613/166907126-93e9932d-710a-4efa-bf46-befdecb5483f.jpg)
 
 ## Conclusion
 Share market is completed with all the major functionalities that can aid the end user to receive
