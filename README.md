@@ -18,15 +18,7 @@ position.
 ## Screenshots
 
 
-![WhatsApp Image 2022-05-05 at 5 32 39 PM (1)](https://user-images.githubusercontent.com/73883613/166920165-06a8e970-de51-4202-ae0a-df06a3c0cff5.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 39 PM](https://user-images.githubusercontent.com/73883613/166920177-61f890ea-65e3-4964-acb5-d2962c956505.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 38 PM (1)](https://user-images.githubusercontent.com/73883613/166920180-21355b10-9610-4fe8-90ad-8592fb6b886e.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 38 PM](https://user-images.githubusercontent.com/73883613/166920183-b09ee722-f196-48a6-a91f-2bfda74f13f6.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 37 PM (2)](https://user-images.githubusercontent.com/73883613/166920186-7e1b8ccd-3787-4b5b-897b-1b2d671bb99c.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 37 PM (1)](https://user-images.githubusercontent.com/73883613/166920192-635a1067-81e6-4138-bd3b-1e4f406c26b1.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 37 PM](https://user-images.githubusercontent.com/73883613/166920197-dbc41913-58b2-4568-bf2c-006493f5f3b6.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 36 PM (1)](https://user-images.githubusercontent.com/73883613/166920200-a40d6f5d-e15f-40a9-b526-a7013e4e362a.jpeg)
-![WhatsApp Image 2022-05-05 at 5 32 36 PM](https://user-images.githubusercontent.com/73883613/166920204-d8f48145-6d05-4a97-831e-81f75b034602.jpeg)
+<img src="https://user-images.githubusercontent.com/73883613/166920165-06a8e970-de51-4202-ae0a-df06a3c0cff5.jpeg" width="300"><img src="https://user-images.githubusercontent.com/73883613/166920177-61f890ea-65e3-4964-acb5-d2962c956505.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920180-21355b10-9610-4fe8-90ad-8592fb6b886e.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920183-b09ee722-f196-48a6-a91f-2bfda74f13f6.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920186-7e1b8ccd-3787-4b5b-897b-1b2d671bb99c.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920192-635a1067-81e6-4138-bd3b-1e4f406c26b1.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920197-dbc41913-58b2-4568-bf2c-006493f5f3b6.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920200-a40d6f5d-e15f-40a9-b526-a7013e4e362a.jpeg" width="300"><img src = "https://user-images.githubusercontent.com/73883613/166920204-d8f48145-6d05-4a97-831e-81f75b034602.jpeg" width="300">
 
 
 ## Conclusion
